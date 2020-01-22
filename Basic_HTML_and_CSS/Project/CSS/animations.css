@@ -26,7 +26,7 @@ Menu Section Animation
     /*background color: #052136:*/
     cursor: pointer;
     transition-property: background;
-    transition-duration: .7s;
+    transition-duration: .4s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
 }
@@ -43,9 +43,9 @@ Gallery
 .photo {
     position: relative;
     line-height: 0;
-    margin-bottom: 2em;
+    margin-bottom: 2cm;
     overflow: hidden;
-    border-radius: 0px;
+    border-radius: 8px;
     padding: 1px;
     border: 1px solid #021a40;
     background-color: #ff0;
@@ -56,13 +56,13 @@ Gallery
     text-align: center;
     margin: 15px auto;
     width: 300px;
-    height: 170px;
+    height: 169px;
 }
 
 .photo-container img {
     max-width: 100%;
     width: 100px;
-    height: 170px;
+    height: 169px;
 }
 
 .photo-overlay {

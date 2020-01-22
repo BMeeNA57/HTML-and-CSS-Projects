@@ -2,14 +2,14 @@
 Author : Benjamin Meena
 Checkoutmy.spaces
 ----------------------
-Generic Styles
+Generic Styles -ma-text-size-adjust
 ------------------------*/
 html {
-    font-family: sana-serif;
+    font-family: sans-serif;
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust: 100%;
-    -ma-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
 
 body {
@@ -26,7 +26,7 @@ nav {
     display: block;
 }
 h1.h2.h3.h4.h5.h6 {
-    font-family: 'Open Sana', sana-serif;
+    font-family: 'Open Sana', sans-serif;
 }
 
 h1 {
@@ -100,7 +100,7 @@ section {
 }
 
 .container-fluid {
-    padding-right: 15ps;
+    padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
@@ -168,7 +168,7 @@ Home Section Styles
     color: #fff;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5em;
+    font-size: 4.5cm;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
@@ -217,7 +217,7 @@ Contact STYLES
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,.3);
-    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgbba(0,0,0,0.1);
+    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgbba(0,0,0,0.5);
 }
 
 .reservation h2 {
@@ -226,6 +226,7 @@ Contact STYLES
     margin: 0 auto;
     color: #13161B;
     font-weight: 500;
+    font-size: 1.3cm;
     letter-spacing: 0pt;
     word-spacing: 0pt;
 }
@@ -235,7 +236,7 @@ Contact STYLES
     text-align: center;
     margin: 0 auto;
     color: #13111b;
-    font-size: 1.5em;
+    font-size: 1.5cm;
     font-variant: small-caps;
     letter-spacing: 4pt;
     word-spacing: .3pt;
@@ -244,7 +245,7 @@ Contact STYLES
 .reservation p {
     color: #13111B;
     width: 50%;
-    margin: 0auto;
+    margin: 0 auto;
 }
 
 .reservation form {
@@ -272,7 +273,7 @@ Contact STYLES
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
     border-left: 1px solid #090B0D;
-    margin: 10px 1em;
+    margin: 10px 1cm;
     border-radius: 7px;
     background: #13111B;
     box-shadow: 0px 3px 0px 0px rgba(5. 5. 5. 0.15);
@@ -280,15 +281,16 @@ Contact STYLES
 }
 
 .reservation input [type="text"]:hover {
-    box-shadow: 0 0 10px rgba(100,65,0, .9)
+    box-shadow: 0 0 10px rgba(100,65,0,.8)
 }
 
 .font-spacer {
-    padding: 30px 39px;
+    padding: 30px 30px;
 }
 
 .terms {
     margin: 30px 1px 0 0;
+    margin-top: 13%;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -296,24 +298,27 @@ Contact STYLES
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-weight:600;
+    position: relative;
+    display: inline;
+    float: right;
 }
 
 .terms:hover {
     color: cornflowerblue;
     text-decoration: underline;
 } 
-.submit {
+.submit input[type="submit"] {
     
-color: rgb(300, 300, 300) ;
+color: rgb(225, 225, 225) ;
 cursor: pointer;
 border: none;
 font-weight: 900;
-outline: 1px;
+outline: none;
 text-align: center;
 font-family: 'Raleway', sans-serif;
 margin: 0px 30;
 padding: 7px 0px;
-width: 250;
+width: 25%;
 font-style: 10px;
 transition: border-color 0.3s color 0.3s background-color 0.3s;
 border-radius: 7px;
