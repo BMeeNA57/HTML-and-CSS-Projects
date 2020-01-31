@@ -1,0 +1,63 @@
+html {
+    font-family: sana-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(14, 54, 235, 0);
+    -webkit-text-size-adjust: 100%;
+    -ma-text-size-adjust: 100%;
+}
+body {
+    font-size: 14px;
+    margin:0;
+    font-family: "helvatica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: lightblue;
+}
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2ox 3ox rgba(0,0,0,0.5);
+}
+h2 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2ox 3ox rgba(0,0,0,0.5);
+}
+
+h3 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+ p {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+ }
+
+ img {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    border:  2px dashed red;
+    border-radius: 5%;
+    height: 300;
+    width: 600;
+ }
