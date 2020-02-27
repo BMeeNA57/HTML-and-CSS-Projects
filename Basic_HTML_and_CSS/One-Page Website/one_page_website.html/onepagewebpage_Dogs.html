@@ -32,60 +32,72 @@
 		
 		<!--  GALLERY -->
 		<section>
-			<div id="gallery">
-				<h1>Gallery</h1>
-				<div>
-				
-					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
-						<img src="C:\Users\benja\OneDrive\Desktop\School\One-Page Website\one_page_website.html\thumb\bloodhound.jpg" alt="bloodhound">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>Blood Hounds are a popluar breed of large dogs.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 1 -->
-					
-					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
-						<img src="C:\Users\benja\OneDrive\Desktop\School\One-Page Website\one_page_website.html\thumb\French-Bulldog.jpg" alt="frenchie">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>French Bulldogs, also known as, Frenchies are super lovable!</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 2 -->
-					
-					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
-						<img src="C:\Users\benja\OneDrive\Desktop\school\One-Page Website\one_page_website.html\thumb\golden-retriever-dog.jpg" alt="golden retriever">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>Golden Retrievers are one of the smartest breeds of dogs ever in existance.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 3 -->
-					
-					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
-						<img src="C:\Users\benja\OneDrive\Desktop\school\One-Page Website\one_page_website.html\thumb\Labrador-Retriever.jpg" alt="lab">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>The Labrador Retriever is one of the most loyal canines.</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 4 -->
-				</div>
-			</div>
-		</section>
+	
+<h2 style="text-align:center">Lightbox</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="../one_page_website.html/thumb/Bloodhound.jpg" style="width:110%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../one_page_website.html/thumb/French-Bulldog.jpg" style="width:110%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../one_page_website.html/thumb/golden-retriever-dog.jpg" style="width:110%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../one_page_website.html/thumb/Labrador-Retriever.jpg" style="width:110%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="../one_page_website.html/thumb/Bloodhound.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="../one_page_website.html/thumb/French-Bulldog.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="../one_page_website.html/thumb/golden-retriever-dog.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="../one_page_website.html/thumb/Labrador-Retriever.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="../one_page_website.html/thumb/Bloodhound.jpg" style="width:100%" onclick="currentSlide(1)" alt="Bloodhound">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../one_page_website.html/thumb/French-Bulldog.jpg" style="width:100%" onclick="currentSlide(2)" alt="Frenchie">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../one_page_website.html/thumb/golden-retriever-dog.jpg" style="width:100%" onclick="currentSlide(3)" alt="Golden Retriever">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../one_page_website.html/thumb/Labrador-Retriever.jpg" style="width:100%" onclick="currentSlide(4)" alt="Labrador Retriever">
+    </div>
+  </div>
+</div>
+</section>
+	
 		<!-- END GALLERY -->
 		
 		<!-- RSVP -->
@@ -142,6 +154,6 @@
 	<footer>
 		<p>Posted by: Ben Meena</p>
 	</footer>
-					
-	</body>
+	<script src="../JS/one_page_website.js"></script>	
+</body>
 </html>
